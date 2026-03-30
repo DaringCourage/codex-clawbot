@@ -1,0 +1,30 @@
+{
+  "name": "wechat-codex-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal WeChat ClawBot -> Codex bridge prototype",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "init": "node src/init.mjs",
+    "setup": "node src/cli.mjs setup",
+    "start": "node src/cli.mjs start",
+    "status": "node src/cli.mjs status",
+    "reset": "node src/cli.mjs reset",
+    "daemon:install": "node src/cli.mjs daemon install",
+    "daemon:start": "node src/cli.mjs daemon start",
+    "daemon:stop": "node src/cli.mjs daemon stop",
+    "daemon:restart": "node src/cli.mjs daemon restart",
+    "daemon:status": "node src/cli.mjs daemon status",
+    "daemon:logs": "node src/cli.mjs daemon logs",
+    "daemon:uninstall": "node src/cli.mjs daemon uninstall",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+.env
+data/account.json
+data/state.json
+data/last-exchange.json
+data/wechat-login-qr.png
+data/*.tmp
+.DS_Store
