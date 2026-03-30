@@ -18,7 +18,7 @@ The intended deployment model is simple:
 If you just want the shortest path to a working setup:
 
 ```bash
-git clone https://github.com/duan19980902-pixel/wechat-codex-bridge.git
+git clone https://github.com/DaringCourage/wechat-codex-bridge.git
 cd wechat-codex-bridge
 npm install
 npm run init
@@ -46,7 +46,7 @@ The practical check is not just whether the command exists, but whether you can 
 ## Quick Start
 
 ```bash
-git clone https://github.com/duan19980902-pixel/wechat-codex-bridge.git
+git clone https://github.com/DaringCourage/wechat-codex-bridge.git
 cd wechat-codex-bridge
 npm install
 npm run init

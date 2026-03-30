@@ -18,7 +18,7 @@
 如果你只是想 5 分钟内跑起来，最短路径是：
 
 ```bash
-git clone https://github.com/duan19980902-pixel/wechat-codex-bridge.git
+git clone https://github.com/DaringCourage/wechat-codex-bridge.git
 cd wechat-codex-bridge
 npm install
 npm run init
@@ -56,7 +56,7 @@ npm run daemon:install
 ## 快速开始
 
 ```bash
-git clone https://github.com/duan19980902-pixel/wechat-codex-bridge.git
+git clone https://github.com/DaringCourage/wechat-codex-bridge.git
 cd wechat-codex-bridge
 npm install
 npm run init
