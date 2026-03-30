@@ -1,4 +1,4 @@
-# wechat-codex-bridge
+# WeChat ClawBot-Codex
 
 [![Node.js 20+](https://img.shields.io/badge/node-%3E%3D20-339933?logo=node.js&logoColor=white)](./package.json)
 [![macOS](https://img.shields.io/badge/platform-macOS-000000?logo=apple&logoColor=white)](./README.en.md)
