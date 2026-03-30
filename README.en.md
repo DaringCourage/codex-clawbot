@@ -18,7 +18,7 @@ The intended deployment model is simple:
 If you just want the shortest path to a working setup:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/duan19980902-pixel/wechat-codex-bridge.git
 cd wechat-codex-bridge
 npm install
 npm run init
@@ -38,12 +38,15 @@ npm run daemon:install
 - macOS
 - Node.js 20+
 - `codex` installed and available in `PATH`
+- your `codex` setup already works in Terminal and is signed in
 - WeChat ClawBot access on your own account
+
+The practical check is not just whether the command exists, but whether you can already use Codex normally from your shell.
 
 ## Quick Start
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/duan19980902-pixel/wechat-codex-bridge.git
 cd wechat-codex-bridge
 npm install
 npm run init

@@ -18,7 +18,7 @@
 如果你只是想 5 分钟内跑起来，最短路径是：
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/duan19980902-pixel/wechat-codex-bridge.git
 cd wechat-codex-bridge
 npm install
 npm run init
@@ -48,12 +48,15 @@ npm run daemon:install
 - macOS
 - Node.js 20+
 - 本机已经安装并可运行 `codex`
+- 你的 `codex` 已经完成登录，并且平时能在终端正常使用
 - 你的微信账号能使用 ClawBot
+
+如果你还不确定自己的 Codex 是否已经就绪，最稳的判断方式不是“命令装上了没”，而是“你平时能不能在终端正常跑 Codex”。
 
 ## 快速开始
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/duan19980902-pixel/wechat-codex-bridge.git
 cd wechat-codex-bridge
 npm install
 npm run init
