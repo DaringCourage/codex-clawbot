@@ -1,6 +1,12 @@
 # wechat-codex-bridge
 
-A minimal local bridge that connects WeChat ClawBot to your own local Codex.
+[![Node.js 20+](https://img.shields.io/badge/node-%3E%3D20-339933?logo=node.js&logoColor=white)](./package.json)
+[![macOS](https://img.shields.io/badge/platform-macOS-000000?logo=apple&logoColor=white)](./README.en.md)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
+Run your own local WeChat ClawBot to Codex bridge on macOS.
+
+This project is designed for personal local deployment, not as a shared hosted service.
 
 The intended deployment model is simple:
 
@@ -8,6 +14,17 @@ The intended deployment model is simple:
 - each person signs in with their own WeChat ClawBot
 - each person uses their own local `codex`
 - no shared server, no shared bot token, no shared Codex session
+
+If you just want the shortest path to a working setup:
+
+```bash
+git clone <your-repo-url>
+cd wechat-codex-bridge
+npm install
+npm run init
+npm run setup
+npm run daemon:install
+```
 
 ## What It Does
 

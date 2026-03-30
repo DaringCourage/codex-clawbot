@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Minimal WeChat ClawBot -> Codex bridge prototype",
+  "description": "Run your own local WeChat ClawBot to Codex bridge on macOS.",
   "engines": {
     "node": ">=20.0.0"
   },

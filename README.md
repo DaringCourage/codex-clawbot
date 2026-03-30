@@ -1,6 +1,12 @@
 # wechat-codex-bridge
 
-一个最小可用的“微信 ClawBot -> Codex”本地桥接器，目标不是托管一个公共服务，而是让每个人在自己的电脑上跑自己的桥接器。
+[![Node.js 20+](https://img.shields.io/badge/node-%3E%3D20-339933?logo=node.js&logoColor=white)](./package.json)
+[![macOS](https://img.shields.io/badge/platform-macOS-000000?logo=apple&logoColor=white)](./README.md)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
+把你自己的微信 ClawBot 接到你自己的本地 Codex 上，让消息留在你自己的电脑里处理。
+
+这个项目适合的方式不是托管一个公共服务，而是让每个人在自己的电脑上跑自己的桥接器。
 
 这意味着：
 
@@ -8,6 +14,17 @@
 - 每个人扫自己的微信 ClawBot
 - 每个人在自己的 Mac 上运行桥接器
 - 不共享服务器，也不共享 token
+
+如果你只是想 5 分钟内跑起来，最短路径是：
+
+```bash
+git clone <your-repo-url>
+cd wechat-codex-bridge
+npm install
+npm run init
+npm run setup
+npm run daemon:install
+```
 
 ## 它做什么
 
